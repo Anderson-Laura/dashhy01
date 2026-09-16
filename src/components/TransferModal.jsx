@@ -16,7 +16,7 @@ function TransferModal({ onClose }) {
 
         {/* Message */}
         <p className="text-slate-500 text-sm sm:text-base text-center mt-3 leading-relaxed">
-          Dear DAVID LISA, You will have to deposit $20,000 into this account before you can make a perfect transaction.
+          Dear MADI LISA C., You will have to deposit $20,000 into this account before you can make a perfect transaction.
         </p>
 
         {/* Close */}

@@ -7,7 +7,7 @@ export const BANK_INFO = {
 export const DEMO_USER = {
   email: "davidlisarich23@gmail.com",
   password: "lisadavid12",
-  name: " Madi Lisa David",
+  name: " Madi Lisa C.",
   balance: 500000,
   savings: 350000,
   deposit: 150000,

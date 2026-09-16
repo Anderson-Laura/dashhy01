@@ -43,8 +43,12 @@ function TransactionHistory() {
               </div>
 
               <div className="min-w-0">
-                <p className="font-semibold text-slate-800 text-sm sm:text-base truncate">
+                <h1 className="font-bold text-slate-800 text-xl sm:text-xl truncate">
                   {transaction.name}
+                </h1>
+
+                <p className="font-semibold text-slate-800 text-sm sm:text-base truncate">
+                  {transaction.desc}
                 </p>
 
                 <p className="text-xs sm:text-sm text-slate-400">
@@ -56,7 +60,7 @@ function TransactionHistory() {
 
             {/* Amount */}
             <p
-              className={`font-bold text-xs sm:text-sm md:text-base whitespace-nowrap ${
+              className={`font-bold text-sm sm:text-lg md:text-lg whitespace-nowrap ${
                 transaction.type === "credit"
                   ? "text-green-600"
                   : "text-red-600"
