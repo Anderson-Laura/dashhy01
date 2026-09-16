@@ -85,7 +85,7 @@ function Login() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="w-full border border-slate-300 rounded-lg px-4 py-3 text-sm sm:text-base outline-none focus:border-green-500 focus:ring-2 focus:ring-green-100 transition"
+                className="w-full border border-slate-300 rounded-lg px-4 py-3 text-sm sm:text-base outline-none focus:border-red-500 focus:ring-2 focus:ring-red-100 transition"
                 required
               />
             </div>
@@ -101,7 +101,7 @@ function Login() {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Enter your password"
-                className="w-full border border-slate-300 rounded-lg px-4 py-3 text-sm sm:text-base outline-none focus:border-green-500 focus:ring-2 focus:ring-green-100 transition"
+                className="w-full border border-slate-300 rounded-lg px-4 py-3 text-sm sm:text-base outline-none focus:border-red-500 focus:ring-2 focus:ring-red-100 transition"
                 required
               />
             </div>
@@ -109,7 +109,7 @@ function Login() {
             {/* Login */}
             <button
               type="submit"
-              className="w-full bg-green-600 hover:bg-green-700 active:bg-green-800 text-white font-semibold py-3 rounded-lg transition"
+              className="w-full bg-red-600 hover:bg-red-700 active:bg-red-800 text-white font-semibold py-3 rounded-lg transition"
             >
               Sign In
             </button>

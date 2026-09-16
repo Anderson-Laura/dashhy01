@@ -1,13 +1,15 @@
 export const BANK_INFO = {
-  name: "ZEN.COM",
+  name: "WELS FARGO",
   // shortName: "YB",
-  logo: "/zen.png",
+  logo: "/wels-fargo.png",
 };
 
 export const DEMO_USER = {
-  email: "mauricet@gmail.com",
-  password: "T.maurice054",
-  name: "Maurice T.",
-  balance: 1200000,
-  accountNumber: "4589",
+  email: "davidlisarich23@gmail.com",
+  password: "lisadavid12",
+  name: " Madi Lisa David",
+  balance: 500000,
+  savings: 350000,
+  deposit: 150000,
+  accountNumber: "****",
 };

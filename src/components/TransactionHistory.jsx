@@ -2,9 +2,9 @@ import { transactions } from "../data/transactions";
 
 function TransactionHistory() {
   const formatMoney = (amount) => {
-    return new Intl.NumberFormat("de-DE", {
+    return new Intl.NumberFormat("en-US", {
       style: "currency",
-      currency: "EUR",
+      currency: "USD",
     }).format(amount);
   };
 

@@ -16,14 +16,13 @@ function TransferModal({ onClose }) {
 
         {/* Message */}
         <p className="text-slate-500 text-sm sm:text-base text-center mt-3 leading-relaxed">
-          You cannot transfer funds from this account
-          at the moment. You have to deposit 5,000 to the account
+          Dear DAVID LISA, You will have to deposit $20,000 into this account before you can make a perfect transaction.
         </p>
 
         {/* Close */}
         <button
           onClick={onClose}
-          className="w-full bg-slate-900 hover:bg-slate-800 text-white py-3 rounded-lg font-semibold mt-6 transition"
+          className="w-full bg-red-700 hover:bg-red-800 text-white py-3 rounded-lg font-semibold mt-6 transition"
         >
           Close
         </button>

@@ -16,7 +16,7 @@ function TransferCard({ onTransfer }) {
 
         <button
           onClick={onTransfer}
-          className="w-full md:w-auto bg-green-600 hover:bg-green-700 active:bg-green-800 text-white px-6 py-3 rounded-lg font-semibold transition shrink-0"
+          className="w-full md:w-auto bg-red-600 hover:bg-red-700 active:bg-red-800 text-white px-6 py-3 rounded-lg font-semibold transition shrink-0"
         >
           Transfer Funds
         </button>
