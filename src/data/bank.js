@@ -1,5 +1,5 @@
 export const BANK_INFO = {
-  name: "WELS FARGO",
+  name: "WELLS FARGO",
   // shortName: "YB",
   logo: "/wels-fargo.png",
 };
